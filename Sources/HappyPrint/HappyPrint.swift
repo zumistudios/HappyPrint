@@ -13,7 +13,7 @@ struct HappyPrint {
         Swift.print("🟡 \(message)")
     }
 
-    static func print(_ message: String) {
+    static func write(_ message: String) {
         Swift.print("⚪️ \(message)")
     }
 }
