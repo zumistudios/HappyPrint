@@ -3,6 +3,7 @@ import XCTest
 
 final class HappyPrintTests: XCTestCase {
     func testExample() throws {
+        HappyPrint.happy("hello world")
         // XCTest Documentation
         // https://developer.apple.com/documentation/xctest
 
